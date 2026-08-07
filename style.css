@@ -1,18 +1,44 @@
+:root {
+   --cor-primaria: #183c63;
+   --cor-segundaria: #3a638e;
+   --cor-fundo: #ffffff;
+   --cor-texto: #151428;
+   --cor-constraste: #f3eef7;
+   --cor-botao: #f9f9f9;
+}
+
+.tema-escuro{
+   --cor-primaria: #537191;
+   --cor-segundaria: #1a4574;
+   --cor-fundo: #161515;
+   --cor-texto: #cccbdd;
+   --cor-constraste: #0f0f0f;
+   --cor-botao: #131111;
+}
+
+.tema-escuro a {
+    color: var(--cor-segundaria);
+}
+
+.tema-escuro p {
+    color: var(--cor-texto)
+}
+
 body {
     max-width: 100vw;
 }
 
 header{
-     background-color:#183C63;
-    color: #FFFFFF; 
+     background-color:var(--cor-primaria);
+    color: var(--cor-constraste);
     text-align: center;      
     margin: 0 auto;
     padding: 16px;
 }
 
 main {
-    background-color:#FFFFFF;
-    color: #183C63;
+    background-color: var(--cor-fundo);
+    color:var(--cor-primaria);
     margin: 0 auto;
     padding: 16px;
 
